@@ -16,14 +16,14 @@ header {
 }
 
 li {
+    width: 20rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    gap: .5rem;
     padding: .5rem;
     margin-top: 1rem;
+    gap: .3rem;
+    list-style: none;
     color: #3c3c3b;
+    border: 1px solid #4CAF50;
     background-color: #fff;
 }
 
@@ -46,6 +46,7 @@ li {
 
 #tasks {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
