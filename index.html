@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <header>
+        <h1>My To-do List</h1>
+    </header>
+
+    <div id="container">
+
+        <div id="new-task">
+            <label for="new-task-input">New Task: </label>
+            <input type="text" id="new-task-input" placeholder="Enter a new task">
+            <button id="add-task-btn">Add</button>
+        </div>
+
+        <div id="tasks">
+
+            <li>
+                <input type="checkbox">
+                <label>buscar a bruna</label>
+            </li>
+
+        </div>
+
+        <div id="task-summary">
+            <span id="total-tasks">Total: 0</span> |
+            <span id="completed-tasks">Concluídos: 0</span> |
+            <span id="pending-tasks">Pendentes: 0</span>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
