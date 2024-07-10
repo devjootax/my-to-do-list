@@ -46,4 +46,11 @@ function createTask() {
   }
 }
 
-document.getElementById("add-task-btn").addEventListener("click", createTask);
+const form = document.querySelector("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  createTask();
+
+  form.reset();
+});

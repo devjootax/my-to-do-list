@@ -16,15 +16,23 @@ header {
 }
 
 li {
-    width: 20rem;
+    width: 100%;
     display: flex;
-    padding: .5rem;
+    align-items: center;
+    padding: .5rem 1rem .5rem 1rem;
     margin-top: 1rem;
-    gap: .3rem;
+    gap: .5rem;
     list-style: none;
     color: #3c3c3b;
     border: 1px solid #4CAF50;
     background-color: #fff;
+}
+
+img {
+    width: 1.5rem;
+    position: relative;
+    right: 0;
+
 }
 
 #container {
