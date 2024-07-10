@@ -16,7 +16,7 @@ header {
 }
 
 li {
-    width: 100%;
+    width: 14rem;
     display: flex;
     align-items: center;
     padding: .5rem 1rem .5rem 1rem;
@@ -24,14 +24,19 @@ li {
     gap: .5rem;
     list-style: none;
     color: #3c3c3b;
-    border: 1px solid #4CAF50;
+    border-radius: .5rem;
+    border: 2px solid #4CAF50;
     background-color: #fff;
+}
+
+ul {
+    position: relative;
 }
 
 img {
     width: 1.5rem;
-    position: relative;
-    right: 0;
+    position: absolute;
+    right: 10px;
 
 }
 

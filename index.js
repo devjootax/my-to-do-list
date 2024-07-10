@@ -1,5 +1,5 @@
 const newTaskInput = document.getElementById("new-task-input");
-const tasksContainer = document.getElementById("tasks");
+const tasks = document.getElementById("tasks");
 let ids = 0;
 
 function createLi() {
@@ -40,7 +40,7 @@ function createTask() {
     const trashIcon = createTrashIcon();
 
     li.append(input, label, trashIcon);
-    tasksContainer.appendChild(li);
+    tasks.appendChild(li);
   } else {
     throw new Error("opa irmao, preenche os campos aí.");
   }
