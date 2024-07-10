@@ -60,10 +60,12 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   createTask();
 
-  const lis = document.querySelectorAll("li");
+  const trashIcons = document.querySelectorAll("img");
 
-  console.log(lis);
-
-  console.log(tasks);
+  trashIcons.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.target.parentNode.remove();
+    });
+  });
   form.reset();
 });

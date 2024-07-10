@@ -19,8 +19,8 @@ li {
     width: 14rem;
     display: flex;
     align-items: center;
-    padding: .5rem 1rem .5rem 1rem;
-    margin-top: 1rem;
+    padding: 1rem;
+    margin-top: .5rem;
     gap: .5rem;
     list-style: none;
     color: #3c3c3b;
@@ -31,6 +31,11 @@ li {
 
 ul {
     position: relative;
+}
+
+span {
+    margin-right: .3rem;
+    text-align: center;
 }
 
 #container {
@@ -67,11 +72,5 @@ ul {
 .trash-icon {
     width: 1.5rem;
     position: absolute;
-    right: 10px;
+    right: 3px;
 }
-
-
-
-
-
-
