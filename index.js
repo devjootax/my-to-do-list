@@ -64,7 +64,10 @@ form.addEventListener("submit", (e) => {
 
   trashIcons.forEach((btn) => {
     btn.addEventListener("click", (e) => {
-      e.target.parentNode.remove();
+      const task = e.target.parentNode;
+      const taskId = task.id;
+      console.log(taskId);
+      task.remove();
     });
   });
   form.reset();
