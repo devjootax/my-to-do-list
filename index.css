@@ -44,7 +44,7 @@ li {
     gap: .5rem;
 }
 
-#tasks {
+#tasks-container {
     display: flex;
     flex-direction: column;
     align-items: center;
